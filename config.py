@@ -46,7 +46,7 @@ LOG_DIR = PROJECT_ROOT / "logs"
 # Files
 # ==========================================================
 
-HR_CONTACTS_FILE = DATA_DIR / "test_hr_contacts.xlsx"
+HR_CONTACTS_FILE = DATA_DIR / "sample_hr_contacts.xlsx"
 
 CLEAN_CONTACTS_FILE = OUTPUT_DIR / "cleaned_hr_contacts.xlsx"
 
@@ -96,10 +96,10 @@ EMAIL_SUBJECT = (
     "SQL • Power BI • Python | Resume Attached"
 )
 
-DAILY_EMAIL_LIMIT = 13
+DAILY_EMAIL_LIMIT = 50
 
-MIN_DELAY_SECONDS = 3
-MAX_DELAY_SECONDS = 10
+MIN_DELAY_SECONDS = 30
+MAX_DELAY_SECONDS = 45
 
 # ==========================================================
 # Status Values
@@ -205,3 +205,9 @@ LINKEDIN_URL = "https://linkedin.com/in/vishwas-gurav"
 ASSETS_DIR = PROJECT_ROOT / "assets"
 
 SIGNATURE_FILE = ASSETS_DIR / "signature.png"
+
+APP_NAME = "HR Email Automation"
+
+VERSION = "1.0.0"
+
+AUTHOR = "Vishwash Gurav"
