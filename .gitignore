@@ -18,6 +18,10 @@ logs/
 # Output
 output/
 
+# Resume Files
+resume/
+*.pdf
+
 # VS Code
 .vscode/
 
