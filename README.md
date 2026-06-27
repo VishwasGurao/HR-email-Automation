@@ -45,7 +45,7 @@ HR-email-Automation/
 ├── assets/
 │   └── signature.png           # Email signature image
 ├── data/
-│   └── test_hr_contacts.xlsx   # Sample HR contact dataset
+│   └── sample_hr_contacts.xlsx   # Sample HR contact dataset
 ├── resume/                     # Resume PDF files (excluded from version control)
 ├── templates/
 │   ├── email_template.html     # Primary HTML email template
@@ -220,9 +220,9 @@ All configuration is centralized in `config.py`. The table below documents every
 
 | Variable | Default | Description |
 |---|---|---|
-| `DAILY_EMAIL_LIMIT` | `13` | Maximum emails per run |
-| `MIN_DELAY_SECONDS` | `3` | Minimum inter-send delay |
-| `MAX_DELAY_SECONDS` | `10` | Maximum inter-send delay |
+| `DAILY_EMAIL_LIMIT` | `50` | Maximum emails per run |
+| `MIN_DELAY_SECONDS` | `30` | Minimum inter-send delay |
+| `MAX_DELAY_SECONDS` | `45` | Maximum inter-send delay |
 | `DATE_FORMAT` | `%d-%m-%Y %H:%M:%S` | Timestamp format used in logs |
 
 ### Status Values
